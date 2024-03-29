@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: Arial;
+        }
+        
+        .header {
+          text-align: center;
+          padding: 32px;
+        }
+        
+        .row {
+          display: -ms-flexbox; /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE10 */
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        
+        /* Create four equal columns that sits next to each other */
+        .column {
+          -ms-flex: 25%; /* IE10 */
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+        }
+        
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+        }
+        
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+          .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+        </style>
+        <body>
+        
+        <!-- Header -->
+        <div class="header">
+          <h1>Responsive Image Grid</h1>
+          <p>Resize the browser window to see the responsive effect.</p>
+        </div>
+        
+        <!-- Photo Grid -->
+        <div class="row"> 
+          <div class="column">
+            <img src="c:\Users\user\Documents\dre3.jpg" style="width:100%">
+            <img src="c:\Users\user\Documents\dre4.jpg" style="width:100%">
+            <img src="https://i.pinimg.com/originals/81/f7/6c/81f76ce32c57717d887932b8030ebdc8.png" style="width:100%">
+            <!--<img src="/w3images/paris.jpg" style="width:100%">
+            <img src="/w3images/nature.jpg" style="width:100%">
+            <img src="/w3images/mist.jpg" style="width:100%">
+            <img src="/w3images/paris.jpg" style="width:100%">-->
+          </div>
+          <div class="column">
+            <img src="https://fashiondream.co.in/cdn/shop/products/AK_2638copy.jpg?v=1663068490&width=1946" style="width:100%">
+            <img src="https://images.unsplash.com/photo-1603124552648-00e00e27d774?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgYNoSkJWXJqMtaBZ1ZlyW8_nf2qhYcrbg7A&s" style="width:100%">
+            <!--<img src="/w3images/mountainskies.jpg" style="width:100%">
+            <img src="/w3images/rocks.jpg" style="width:100%">
+            <img src="/w3images/underwater.jpg" style="width:100%">-->
+          </div>  
+          <div class="column">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNLPHi7do6_6KWTtbwNAhFv9cUMOvR9q0IWfi3s5YKNTW1buXZ2x6VaPJqZAaqdlb6PAI&usqp=CAU" style="width:100%">
+            <img src="https://i.pinimg.com/236x/2c/fa/da/2cfadae7d5dac28c906ad02779f747be.jpg" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu8nbKF5DaqGx2m64-H1qEZssSG26tNeAGdQ&s" style="width:100%">
+           <!-- <img src="/w3images/paris.jpg" style="width:100%">
+           <img src="/w3images/nature.jpg" style="width:100%">
+            <img src="/w3images/mist.jpg" style="width:100%">
+            <img src="/w3images/paris.jpg" style="width:100%">-->
+          </div>
+          <div class="column">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2lv-KrspNZowRjS0OGYDG43yRLhcTF1zdUEfxsjq2A2t0VWTMlz6qDUEXguCW0oiUWg&usqp=CAU" style="width:100%">
+            <img src="https://m.media-amazon.com/images/I/81v3cNQdQNL._AC_UL320_.jpg" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKK2sCsF2qoVtj_29MspE9iw8rnVQFPIBsoA&s" style="width:100%">
+           <!-- <img src="/w3images/mountainskies.jpg" style="width:100%">
+            <img src="/w3images/rocks.jpg" style="width:100%">
+            <img src="/w3images/underwater.jpg" style="width:100%">-->
+          </div>
+        </div>
+        
+
+</body>
+</html>

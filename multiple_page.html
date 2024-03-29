@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    
+    li.dropdown {
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+#v{
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-left: 400px;
+    padding-top: 150px;
+    padding-right: 500px;
+}
+.card{
+    border:3px solid ;
+}
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+    </style>
+    <body>
+<ul>
+    <li><a href="d:\Internship\A1.html\responsive.html">Home</a></li>
+    <li><a href="cover1.html">cover</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content">
+        <a href="table.html">Table</a>
+        <a href="import.html">Bootsrap</a>
+        <a href="lists.html">List</a>
+      </div>
+    </li>
+  </ul>
+
+
+    <div id="v">
+        <div class="card" style="width: 18rem;">
+          <center> <img src="https://images.unsplash.com/photo-1603124552648-00e00e27d774?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" height="50%"  width="50%">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div></center> 
+          </div></div>
+   
+</body>
+</html>
